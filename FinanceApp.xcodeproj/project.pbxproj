@@ -73,8 +73,16 @@
 		6E9DC58C2D3A0E65002623C6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6E9DC58D2D3A0E98002623C6 /* CreditScore */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		6E9DC58D2D3A0E98002623C6 /* CreditScore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CreditScore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
