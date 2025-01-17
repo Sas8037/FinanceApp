@@ -1,10 +1,3 @@
-//
-//  CreditScoreView.swift
-//  FinanceApp
-//
-//  Created by Saul Saavedra on 1/16/25.
-//
-
 import SwiftUI
 
 struct CreditScoreView: View {
@@ -17,13 +10,19 @@ struct CreditScoreView: View {
             } else if let error = viewModel.errorMessage {
                 Text("Error: \(error)")
                     .foregroundColor(.red)
+            } else if let score = viewModel.currentScore {
+                Text("Your Credit Score: \(score.score)")
+                    .font(.largeTitle)
+                    .padding()
+                Text("Last updated: \(score.lastUpdated, style: .date)")
+                    .foregroundColor(.gray)
             } else {
                 Text("No data available")
                     .padding()
             }
             
             Button (action: {
-                viewModel.loadingCreditScore()
+                viewModel.loadCreditScore(for: "dummyUserId123")
             }) {
                 Text("Load Credit Score")
                     .padding()
