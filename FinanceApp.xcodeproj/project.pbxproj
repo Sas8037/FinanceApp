@@ -93,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				6E9DC58D2D3A0E98002623C6 /* CreditScore */,
+				6EC725D32D3A84EC00D780C1 /* Dashboard */,
+				6EC725D42D3A88FE00D780C1 /* Navigation */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -127,6 +129,20 @@
 				6E9FD3D12D3A6372008994D3 /* CreditScoreCalculator.swift */,
 			);
 			path = FinancialLogic;
+			sourceTree = "<group>";
+		};
+		6EC725D32D3A84EC00D780C1 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		6EC725D42D3A88FE00D780C1 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
