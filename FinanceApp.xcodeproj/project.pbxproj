@@ -16,6 +16,7 @@
 		6E9FD3CE2D3A62DA008994D3 /* CreditScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9FD3CD2D3A62DA008994D3 /* CreditScore.swift */; };
 		6E9FD3D22D3A6372008994D3 /* CreditScoreCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9FD3D12D3A6372008994D3 /* CreditScoreCalculator.swift */; };
 		6EC725D62D3A894D00D780C1 /* SidebarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC725D52D3A894D00D780C1 /* SidebarItem.swift */; };
+		6EC725D82D3A8D9300D780C1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC725D72D3A8D9300D780C1 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		6E9FD3CD2D3A62DA008994D3 /* CreditScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditScore.swift; sourceTree = "<group>"; };
 		6E9FD3D12D3A6372008994D3 /* CreditScoreCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditScoreCalculator.swift; sourceTree = "<group>"; };
 		6EC725D52D3A894D00D780C1 /* SidebarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarItem.swift; sourceTree = "<group>"; };
+		6EC725D72D3A8D9300D780C1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 		6EC725D32D3A84EC00D780C1 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				6EC725D72D3A8D9300D780C1 /* HomeView.swift */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				6E9FD3CE2D3A62DA008994D3 /* CreditScore.swift in Sources */,
 				6E4E51432D39B1A70071A310 /* ContentView.swift in Sources */,
 				6EC725D62D3A894D00D780C1 /* SidebarItem.swift in Sources */,
+				6EC725D82D3A8D9300D780C1 /* HomeView.swift in Sources */,
 				6E4E51412D39B1A70071A310 /* FinanceAppApp.swift in Sources */,
 				6E9FD3D22D3A6372008994D3 /* CreditScoreCalculator.swift in Sources */,
 			);
