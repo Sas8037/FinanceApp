@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedItem: SidebarItem? = .home
+    
     var body: some View {
         NavigationSplitView {
             sidebar
@@ -18,12 +20,29 @@ struct ContentView: View {
     
     // Left Side Bar
     private var sidebar: some View {
-        Text("Sidebar")
+        List(SidebarItem.allCases, selection: $selectedItem) { item in
+            Text(item.rawValue)
+                .tag(item)
+        }
+        .navigationTitle("Dashboard")
+        .listStyle(.sidebar)
     }
     
     // Main Area
+    @ViewBuilder
     private var detailView: some View {
-        Text("Main Area")
+        switch selectedItem {
+        case .home:
+            Text("Main Area")
+        case .creditScore:
+            CreditScoreView()
+        case .transactions:
+            Text("Transactions")
+        case .settings:
+            Text("Settings")
+        case .none:
+            Text("Select an item from the sidebar")
+        }
     }
     
 }
