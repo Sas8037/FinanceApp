@@ -52,6 +52,7 @@
 		6E4E513F2D39B1A70071A310 /* FinanceApp */ = {
 			isa = PBXGroup;
 			children = (
+				6E9DC58C2D3A0E65002623C6 /* Views */,
 				6E4E51402D39B1A70071A310 /* FinanceAppApp.swift */,
 				6E4E51422D39B1A70071A310 /* ContentView.swift */,
 				6E4E51442D39B1AE0071A310 /* Assets.xcassets */,
@@ -67,6 +68,13 @@
 				6E4E51482D39B1AE0071A310 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E9DC58C2D3A0E65002623C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
