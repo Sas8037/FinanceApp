@@ -5,17 +5,6 @@
 //  Created by Saul Saavedra on 1/16/25.
 //
 
-import SwiftUI
-
-struct CreditScoreView: View {
-    var body: some View {
-        VStack {
-            Text("No data available")
-                .padding()
-        }
-    }
-}
-
-#Preview {
-    CreditScoreView()
-}
+<<<<<<< HEAD
+import Foundation
+>>>>>>> bad844fc3fffc44e1b7208fb20e9d78d3cbdbac3
