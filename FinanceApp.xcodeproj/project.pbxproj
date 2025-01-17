@@ -64,6 +64,7 @@
 		6E4E513F2D39B1A70071A310 /* FinanceApp */ = {
 			isa = PBXGroup;
 			children = (
+				6E9FD3CC2D3A629B008994D3 /* Models */,
 				6E3CFA612D3A183000C7FF87 /* ViewModels */,
 				6E9DC58C2D3A0E65002623C6 /* Views */,
 				6E4E51402D39B1A70071A310 /* FinanceAppApp.swift */,
@@ -97,6 +98,13 @@
 				6E9DC58E2D3A0EE5002623C6 /* CreditScoreView.swift */,
 			);
 			path = CreditScore;
+			sourceTree = "<group>";
+		};
+		6E9FD3CC2D3A629B008994D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
