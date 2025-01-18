@@ -33,7 +33,7 @@ struct ContentView: View {
     private var detailView: some View {
         switch selectedItem {
         case .home:
-            Text("Main Area")
+            HomeView()
         case .creditScore:
             CreditScoreView()
         case .transactions:
