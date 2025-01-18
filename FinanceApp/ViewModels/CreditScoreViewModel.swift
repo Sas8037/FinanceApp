@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 class CreditScoreViewModel: ObservableObject {
-    @Published var currentScore: CreditScore?
+    @Published var currentScore: Int?
     @Published var isLoading: Bool = false
     @Published var errorMessage: String?
 
@@ -30,7 +30,7 @@ class CreditScoreViewModel: ObservableObject {
                 self.isLoading = false
                 switch result {
                 case .success(let score):
-                    self.currentScore = score
+                    self.currentScore = score.score
                 case .failure(let error):
                     self.errorMessage = error.localizedDescription
                 }

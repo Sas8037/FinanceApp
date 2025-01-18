@@ -11,11 +11,8 @@ struct CreditScoreView: View {
                 Text("Error: \(error)")
                     .foregroundColor(.red)
             } else if let score = viewModel.currentScore {
-                Text("Your Credit Score: \(score.score)")
+                Text("Your Credit Score: \(score)")
                     .font(.largeTitle)
-                    .padding()
-                Text("Last updated: \(score.lastUpdated, style: .date)")
-                    .foregroundColor(.gray)
             } else {
                 Text("No data available")
                     .padding()

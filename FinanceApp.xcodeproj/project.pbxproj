@@ -119,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				6E9DC58E2D3A0EE5002623C6 /* CreditScoreView.swift */,
+				6E9205A82D3B6CED009371B0 /* CreditScoreWidgetView.swift */,
 			);
 			path = CreditScore;
 			sourceTree = "<group>";
@@ -152,7 +153,6 @@
 			isa = PBXGroup;
 			children = (
 				6EC725D72D3A8D9300D780C1 /* HomeView.swift */,
-				6E9205A82D3B6CED009371B0 /* CreditScoreWidgetView.swift */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";

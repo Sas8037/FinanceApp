@@ -14,6 +14,8 @@ struct HomeView: View {
         // DashboardWidget(type: .transactions)
     ]
     
+    @ObservedObject var creditScoreViewModel = CreditScoreViewModel()
+    
     @State private var isEditing = false
 
     var body: some View {
@@ -49,7 +51,7 @@ struct HomeView: View {
                         }
 
                         // Your widget content here
-                        WidgetRowView(widget: widgets[index])
+                        WidgetRowView(widget: widgets[index], creditScoreViewModel: creditScoreViewModel)
                     }
                 }
             }
@@ -76,11 +78,12 @@ struct HomeView: View {
 
 struct WidgetRowView: View {
     let widget: DashboardWidget
+    @ObservedObject var creditScoreViewModel: CreditScoreViewModel
 
     var body: some View {
         switch widget.type {
         case .creditScore:
-            Text("Credit Score Widget")
+            CreditScoreWidgetView(viewModel: creditScoreViewModel, userId: "dummyUserId123")
         // case .budget:
             // Text("Budget Widget")
         // case .transactions:
