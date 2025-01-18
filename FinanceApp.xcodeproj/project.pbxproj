@@ -48,6 +48,7 @@
 		6E3CFA612D3A183000C7FF87 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				6E9205A52D3B62C7009371B0 /* Dashboard */,
 				6E3CFA622D3A187B00C7FF87 /* CreditScoreViewModel.swift */,
 			);
 			path = ViewModels;
@@ -91,6 +92,13 @@
 				6E4E51482D39B1AE0071A310 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E9205A52D3B62C7009371B0 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dashboard;
 			sourceTree = "<group>";
 		};
 		6E9DC58C2D3A0E65002623C6 /* Views */ = {
