@@ -105,9 +105,17 @@
 			path = Dashboard;
 			sourceTree = "<group>";
 		};
+		6E9205AA2D3B8088009371B0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		6E9DC58C2D3A0E65002623C6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6E9205AA2D3B8088009371B0 /* Shared */,
 				6E9DC58D2D3A0E98002623C6 /* CreditScore */,
 				6EC725D32D3A84EC00D780C1 /* Dashboard */,
 				6EC725D42D3A88FE00D780C1 /* Navigation */,
